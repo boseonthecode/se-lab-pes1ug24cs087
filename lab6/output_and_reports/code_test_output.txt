@@ -1,0 +1,25 @@
+============================= test session starts ==============================
+platform linux -- Python 3.14.8, pytest-9.2.0, pluggy-1.7.0 -- /home/chthonic/repos/se-lab-pes1ug24cs087/lab6/L6_L7_29_thermostat_control/venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/chthonic/repos/se-lab-pes1ug24cs087/lab6/L6_L7_29_thermostat_control
+collecting ... collected 17 items
+
+test_thermostat_control.py::test_away_mode PASSED                        [  5%]
+test_thermostat_control.py::test_sleep_day PASSED                        [ 11%]
+test_thermostat_control.py::test_sleep_night_early PASSED                [ 17%]
+test_thermostat_control.py::test_sleep_night_late PASSED                 [ 23%]
+test_thermostat_control.py::test_unoccupied PASSED                       [ 29%]
+test_thermostat_control.py::test_morning PASSED                          [ 35%]
+test_thermostat_control.py::test_evening PASSED                          [ 41%]
+test_thermostat_control.py::test_default_temperature PASSED              [ 47%]
+test_thermostat_control.py::test_idle PASSED                             [ 52%]
+test_thermostat_control.py::test_heat_boost PASSED                       [ 58%]
+test_thermostat_control.py::test_heat PASSED                             [ 64%]
+test_thermostat_control.py::test_cool_boost PASSED                       [ 70%]
+test_thermostat_control.py::test_cool PASSED                             [ 76%]
+test_thermostat_control.py::test_no_readings PASSED                      [ 82%]
+test_thermostat_control.py::test_all_within_limit PASSED                 [ 88%]
+test_thermostat_control.py::test_warning PASSED                          [ 94%]
+test_thermostat_control.py::test_critical PASSED                         [100%]
+
+============================== 17 passed in 0.03s ==============================

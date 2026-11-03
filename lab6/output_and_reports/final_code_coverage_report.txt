@@ -1,0 +1,6 @@
+Name                                     Stmts   Miss  Cover   Missing
+----------------------------------------------------------------------
+CodeCoverageTest_thermostat_control.py      30      0   100%
+thermostat_control.py                       35      3    91%   24, 27, 38
+----------------------------------------------------------------------
+TOTAL                                       65      3    95%

@@ -1,0 +1,56 @@
+# Ignore the nested worktree repository
+L6_L7_29_thermostat_control/
+
+# Ignore Python coverage files
+.coverage
+htmlcov/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore distribution packages
+dist/
+build/
+develop-eggs/
+*.egg-info/
+.eggs/
+
+# Ignore Python package cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore coverage reports
+.coverage
+htmlcov/
+coverage.xml
+
+# Ignore virtual environment
+venv/
+.env
+.venv

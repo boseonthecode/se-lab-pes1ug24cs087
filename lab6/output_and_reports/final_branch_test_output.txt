@@ -1,0 +1,29 @@
+============================= test session starts ==============================
+platform linux -- Python 3.14.8, pytest-9.2.0, pluggy-1.7.0 -- /home/chthonic/repos/se-lab-pes1ug24cs087/lab6/L6_L7_29_thermostat_control/venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/chthonic/repos/se-lab-pes1ug24cs087/lab6/L6_L7_29_thermostat_control
+collecting ... collected 21 items
+
+BranchCoverageTest_thermostat_control.py::test_away_mode PASSED          [  4%]
+BranchCoverageTest_thermostat_control.py::test_sleep_day PASSED          [  9%]
+BranchCoverageTest_thermostat_control.py::test_unoccupied PASSED         [ 14%]
+BranchCoverageTest_thermostat_control.py::test_morning PASSED            [ 19%]
+BranchCoverageTest_thermostat_control.py::test_evening PASSED            [ 23%]
+BranchCoverageTest_thermostat_control.py::test_default_temperature PASSED [ 28%]
+BranchCoverageTest_thermostat_control.py::test_sleep_night_early PASSED  [ 33%]
+BranchCoverageTest_thermostat_control.py::test_sleep_night_late PASSED   [ 38%]
+BranchCoverageTest_thermostat_control.py::test_sleep_night_edge PASSED   [ 42%]
+BranchCoverageTest_thermostat_control.py::test_sleep_early_edge PASSED   [ 47%]
+BranchCoverageTest_thermostat_control.py::test_idle PASSED               [ 52%]
+BranchCoverageTest_thermostat_control.py::test_heat PASSED               [ 57%]
+BranchCoverageTest_thermostat_control.py::test_cool PASSED               [ 61%]
+BranchCoverageTest_thermostat_control.py::test_heat_boost PASSED         [ 66%]
+BranchCoverageTest_thermostat_control.py::test_cool_boost PASSED         [ 71%]
+BranchCoverageTest_thermostat_control.py::test_heat_edge PASSED          [ 76%]
+BranchCoverageTest_thermostat_control.py::test_cool_edge PASSED          [ 80%]
+BranchCoverageTest_thermostat_control.py::test_no_readings PASSED        [ 85%]
+BranchCoverageTest_thermostat_control.py::test_all_within_limit PASSED   [ 90%]
+BranchCoverageTest_thermostat_control.py::test_warning PASSED            [ 95%]
+BranchCoverageTest_thermostat_control.py::test_critical PASSED           [100%]
+
+============================== 21 passed in 0.05s ==============================

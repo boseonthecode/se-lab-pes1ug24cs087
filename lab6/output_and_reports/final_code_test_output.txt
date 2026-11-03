@@ -1,0 +1,22 @@
+============================= test session starts ==============================
+platform linux -- Python 3.14.8, pytest-9.2.0, pluggy-1.7.0 -- /home/chthonic/repos/se-lab-pes1ug24cs087/lab6/L6_L7_29_thermostat_control/venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/chthonic/repos/se-lab-pes1ug24cs087/lab6/L6_L7_29_thermostat_control
+collecting ... collected 14 items
+
+CodeCoverageTest_thermostat_control.py::test_away_mode PASSED            [  7%]
+CodeCoverageTest_thermostat_control.py::test_sleep_day PASSED            [ 14%]
+CodeCoverageTest_thermostat_control.py::test_sleep_night_early PASSED    [ 21%]
+CodeCoverageTest_thermostat_control.py::test_sleep_night_late PASSED     [ 28%]
+CodeCoverageTest_thermostat_control.py::test_unoccupied PASSED           [ 35%]
+CodeCoverageTest_thermostat_control.py::test_morning PASSED              [ 42%]
+CodeCoverageTest_thermostat_control.py::test_evening PASSED              [ 50%]
+CodeCoverageTest_thermostat_control.py::test_default_temperature PASSED  [ 57%]
+CodeCoverageTest_thermostat_control.py::test_idle PASSED                 [ 64%]
+CodeCoverageTest_thermostat_control.py::test_heat_boost PASSED           [ 71%]
+CodeCoverageTest_thermostat_control.py::test_cool_boost PASSED           [ 78%]
+CodeCoverageTest_thermostat_control.py::test_no_readings PASSED          [ 85%]
+CodeCoverageTest_thermostat_control.py::test_all_within_limit PASSED     [ 92%]
+CodeCoverageTest_thermostat_control.py::test_warning PASSED              [100%]
+
+============================== 14 passed in 0.03s ==============================
